@@ -26,27 +26,34 @@
 
 
 
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
-        
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="{{url('/')}}">
-                        <img src="assets/images/recchiastore-588x376.jpg" alt="Recchia Store" title="" media-simple="true" style="height: 3.8rem;">
-                    </a>
-                </span>
+  <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </button>
+      <div class="menu-logo">
+          <div class="navbar-brand">
+              <span class="navbar-logo">
+                  <a href="{{url('/')}}">
+                      <img src="assets/images/recchiastore-588x376.jpg" alt="Recchia Store" title="" media-simple="true" style="height: 3.8rem;">
+                  </a>
+              </span>
 
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-              <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+          </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
 
                 <li class="nav-item"><a class="nav-link link text-info display-4" href="{{ url('/logout') }}">Logout<br></a></li>
 
-            </ul>
-        </div>
-    </nav>
+          </ul>
+
+      </div>
+  </nav>
 </section>
 
 <section class="engine"><a>bootstrap modal</a></section><section class="section-table cid-qzxaTEBIEG" id="table1-o" data-rv-view="1440">
