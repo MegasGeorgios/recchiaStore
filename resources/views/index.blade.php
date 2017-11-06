@@ -30,10 +30,13 @@
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+              @if (session('logueado'))
+                  <li class="nav-item"><a class="nav-link link text-info display-4" href="{{ route('cita.index') }}">Citas<br></a></li>
+              @else
+                <li class="nav-item"><a class="nav-link link text-info display-4" href="{{ url('/login') }}">Login<br></a></li>
+              @endif
+              <li class="nav-item"><a class="nav-link link text-info display-4" href="{{ url('/contactanos') }}">Contactanos<br></a></li>
+
             </div>
         </button>
         <div class="menu-logo">

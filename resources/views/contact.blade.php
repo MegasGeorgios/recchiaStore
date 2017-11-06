@@ -255,36 +255,6 @@
                               <option value="2017-12-29">Viernes</option>
                           </datalist>
 
-
-                        <!--<div class="row row-sm-offset">
-                            <div class="col-md-4 multi-horizontal" >
-                                <div class="form-group">
-                                  <select class="form-control"  name="dia" required>
-                                      <option  >Dia</option>
-                                      <option >2</option>
-                                      <option >3</option>
-                                      <option >4</option>
-                                  </select>
-                                </div>
-                            </div>
-                            <div class="col-md-4 multi-horizontal">
-                                <div class="form-group">
-                                    <select class="form-control" name="mes" required>
-                                        <option >Mes</option>
-                                        <option >2</option>
-                                        <option >3</option>
-                                        <option >4</option>
-                                    </select>
-                                  </div>
-                            </div>
-                            <div class="col-md-4 multi-horizontal">
-                                  <div class="form-group">
-                                    <select class="form-control"  name="anio" required>
-                                        <option>2017</option>
-                                    </select>
-                                  </div>
-                            </div>
-                        </div>-->
                         <span class="input-group-btn"><button type="submit" class="btn btn-primary btn-form display-4">Enviar</button></span>
                     </form>
             </div>
