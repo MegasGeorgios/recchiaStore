@@ -19,10 +19,12 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/contactanos', function () {
+    return view('contact');
+});
+
 Route::post('/login', 'LoginController@autenticar');
 Route::get('/logout', 'LoginController@logout');
-
-Route::get('/contactanos', 'CitasController@fechas');
 
 Route::resource('/cita', 'CitasController');
 

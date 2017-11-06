@@ -49,9 +49,6 @@ class CitasController extends Controller
         'telefono' => 'required | numeric',
         'prenda' => 'required',
         'fecha' => 'required',
-        //'dia' => 'required | numeric',
-        //'mes' => 'required | numeric',
-        //'anio' => 'required | numeric',
       ]);
 
       $buscar= $request->nombre.$request->email.$request->fecha;
@@ -155,12 +152,4 @@ class CitasController extends Controller
       }
     }
 
-    public function fechas()
-    {
-        $citas= new citas;
-        $fechas = $citas->Disponibilidad();
-        $dia=$fechas[0];
-        //dd($fechas);
-        return view ('contact', compact('fechas'));
-    }
 }

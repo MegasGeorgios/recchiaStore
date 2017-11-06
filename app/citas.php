@@ -19,8 +19,4 @@ class citas extends Model
         return $query=DB::table('citas')->orderBy('fecha','asc')->get();
     }
 
-    public function Disponibilidad()
-    {
-        return $query=DB::table('citas')->select('fecha')->orderBy('fecha','asc')->get();
-    }
 }
