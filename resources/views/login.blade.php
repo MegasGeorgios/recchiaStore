@@ -78,7 +78,7 @@
             </div>
         </div>
 
-        <div class="row py-2 justify-content-center">
+        <div class="row row-sm-offset py-2 justify-content-center">
             <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
 
               <form  method="POST" action="{{ url('/login') }}">
