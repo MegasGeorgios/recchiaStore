@@ -85,7 +85,7 @@
                   {{ csrf_field() }}
                     <div class="mbr-subscribe input-group">
                         <input id="email" type="hidden"name="email" value="@recchiastore">
-                        <input  id="password" type="password" class="form-control" name="password" placeholder="Contraseña" required>
+                        <input  id="password" type="password" class="btn" style="border:solid;" name="password" placeholder="Contraseña" required>
                         <span class="input-group-btn"><button href="" type="submit" class="btn btn-primary display-4">Login</button></span>
                     </div>
                     <div class="form-group py-2  justify-content-center">
