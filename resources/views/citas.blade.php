@@ -71,7 +71,7 @@
                 <div class="dataTables_filter">
                   <form class="mbr-form" method="GET" action="{{ url('/busqueda') }}">
                       {{ csrf_field() }}
-                      <label class="searchInfo mbr-fonts-style display-7">Search:</label>
+                      <label class="searchInfo mbr-fonts-style display-7">Buscar:</label>
                       <input class="form-control input-sm" name="buscar" required>
                   </form>
                 </div>

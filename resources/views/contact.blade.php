@@ -28,7 +28,7 @@
 
 
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
-        
+
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
@@ -114,10 +114,6 @@
                         <label class="form-control-label mbr-fonts-style display-7">Fecha</label>
                           <input class="form-control" name="fecha" type="date" list="listafechascita" required>
                           <datalist id="listafechascita">
-                              <option value="2017-11-06">Lunes</option>
-                              <option value="2017-11-07">Martes</option>
-                              <option value="2017-11-08">Miercoles</option>
-                              <option value="2017-11-13">Lunes</option>
                               <option value="2017-11-14">Martes</option>
                               <option value="2017-11-15">Miercoles</option>
                               <option value="2017-11-20">Lunes</option>
