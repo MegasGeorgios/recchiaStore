@@ -114,8 +114,13 @@
                         <label class="form-control-label mbr-fonts-style display-7">Fecha</label>
                           <input class="form-control" name="fecha" type="date" list="listafechascita" required>
                           <datalist id="listafechascita">
-                              <option value="2017-11-14">Martes</option>
-                              <option value="2017-11-15">Miercoles</option>
+                              <?php if (strtotime(date("d-m-Y")) < strtotime("14-11-2017") ) {
+                                echo ' <option value="2017-11-14">Martes</option> ';
+                              } ?>
+                              <?php if (strtotime(date("d-m-Y")) < strtotime("15-11-2017") ) {
+                                echo '<option value="2017-11-15">Miercoles</option>';
+                              } ?>
+
                               <option value="2017-11-20">Lunes</option>
                               <option value="2017-11-21">Martes</option>
                               <option value="2017-11-22">Miercoles</option>
