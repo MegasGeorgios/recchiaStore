@@ -114,34 +114,75 @@
                         <label class="form-control-label mbr-fonts-style display-7">Fecha</label>
                           <input class="form-control" name="fecha" type="date" list="listafechascita" required>
                           <datalist id="listafechascita">
-                              <?php if (strtotime(date("d-m-Y")) < strtotime("14-11-2017") ) {
-                                echo ' <option value="2017-11-14">Martes</option> ';
-                              } ?>
-                              <?php if (strtotime(date("d-m-Y")) < strtotime("15-11-2017") ) {
-                                echo '<option value="2017-11-15">Miercoles</option>';
-                              } ?>
-
-                              <option value="2017-11-20">Lunes</option>
-                              <option value="2017-11-21">Martes</option>
-                              <option value="2017-11-22">Miercoles</option>
-                              <option value="2017-11-27">Lunes</option>
-                              <option value="2017-11-28">Martes</option>
-                              <option value="2017-11-29">Miercoles</option>
-                              <option value="2017-12-04">Lunes</option>
-                              <option value="2017-12-05">Martes</option>
-                              <option value="2017-12-06">Miercoles</option>
-                              <option value="2017-12-11">Lunes</option>
-                              <option value="2017-12-12">Martes</option>
-                              <option value="2017-12-13">Miercoles</option>
-                              <option value="2017-12-18">Lunes</option>
-                              <option value="2017-12-19">Martes</option>
-                              <option value="2017-12-20">Miercoles</option>
-                              <option value="2017-12-21">Jueves</option>
-                              <option value="2017-12-22">Viernes</option>
-                              <option value="2017-12-23">Sabado</option>
-                              <option value="2017-12-27">Miercoles</option>
-                              <option value="2017-12-28">Jueves</option>
-                              <option value="2017-12-29">Viernes</option>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("14-11-2017") ) {
+                              echo ' <option value="2017-11-14">Martes</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("15-11-2017") ) {
+                              echo '<option value="2017-11-15">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("20-11-2017") ) {
+                              echo ' <option value="2017-11-20">Lunes</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("21-11-2017") ) {
+                              echo '<option value="2017-11-21">Martes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("22-11-2017") ) {
+                              echo ' <option value="2017-11-22">Miercoles</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("27-11-2017") ) {
+                              echo '<option value="2017-11-27">Lunes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("28-11-2017") ) {
+                              echo ' <option value="2017-11-28">Martes</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("29-11-2017") ) {
+                              echo '<option value="2017-11-29">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("04-12-2017") ) {
+                              echo ' <option value="2017-12-04">Lunes</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("05-12-2017") ) {
+                              echo '<option value="2017-12-05">Martes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("06-12-2017") ) {
+                              echo ' <option value="2017-12-06">Miercoles</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("11-12-2017") ) {
+                              echo '<option value="2017-12-11">Lunes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("12-12-2017") ) {
+                              echo '<option value="2017-12-12">Martes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("13-12-2017") ) {
+                              echo '<option value="2017-12-13">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("18-12-2017") ) {
+                              echo '<option value="2017-12-18">Lunes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("19-12-2017") ) {
+                              echo '<option value="2017-12-19">Martes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("20-12-2017") ) {
+                              echo '<option value="2017-12-20">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("21-12-2017") ) {
+                              echo '<option value="2017-12-21">Jueves</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("22-12-2017") ) {
+                              echo '<option value="2017-12-22">Viernes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("23-12-2017") ) {
+                              echo '<option value="2017-12-23">Sabado</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("27-12-2017") ) {
+                              echo '<option value="2017-12-27">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("28-12-2017") ) {
+                              echo '<option value="2017-12-28">Jueves</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("29-12-2017") ) {
+                              echo '<option value="2017-12-29">Viernes</option>';
+                            } ?>
                           </datalist>
 
                         <span class="input-group-btn"><button type="submit" class="btn btn-primary btn-form display-4">Enviar</button></span>
@@ -220,33 +261,80 @@
                         <label class="form-control-label mbr-fonts-style display-7">Fecha</label>
                           <input class="form-control" name="fecha" type="date" list="listafechascita" required>
                           <datalist id="listafechascita">
-                              <option value="2017-11-06">Lunes</option>
-                              <option value="2017-11-07">Martes</option>
-                              <option value="2017-11-08">Miercoles</option>
-                              <option value="2017-11-13">Lunes</option>
-                              <option value="2017-11-14">Martes</option>
-                              <option value="2017-11-15">Miercoles</option>
-                              <option value="2017-11-20">Lunes</option>
-                              <option value="2017-11-21">Martes</option>
-                              <option value="2017-11-22">Miercoles</option>
-                              <option value="2017-11-27">Lunes</option>
-                              <option value="2017-11-28">Martes</option>
-                              <option value="2017-11-29">Miercoles</option>
-                              <option value="2017-12-04">Lunes</option>
-                              <option value="2017-12-05">Martes</option>
-                              <option value="2017-12-06">Miercoles</option>
-                              <option value="2017-12-11">Lunes</option>
-                              <option value="2017-12-12">Martes</option>
-                              <option value="2017-12-13">Miercoles</option>
-                              <option value="2017-12-18">Lunes</option>
-                              <option value="2017-12-19">Martes</option>
-                              <option value="2017-12-20">Miercoles</option>
-                              <option value="2017-12-21">Jueves</option>
-                              <option value="2017-12-22">Viernes</option>
-                              <option value="2017-12-23">Sabado</option>
-                              <option value="2017-12-27">Miercoles</option>
-                              <option value="2017-12-28">Jueves</option>
-                              <option value="2017-12-29">Viernes</option>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("14-11-2017") ) {
+                              echo ' <option value="2017-11-14">Martes</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("15-11-2017") ) {
+                              echo '<option value="2017-11-15">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("20-11-2017") ) {
+                              echo ' <option value="2017-11-20">Lunes</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("21-11-2017") ) {
+                              echo '<option value="2017-11-21">Martes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("22-11-2017") ) {
+                              echo ' <option value="2017-11-22">Miercoles</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("27-11-2017") ) {
+                              echo '<option value="2017-11-27">Lunes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("28-11-2017") ) {
+                              echo ' <option value="2017-11-28">Martes</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("29-11-2017") ) {
+                              echo '<option value="2017-11-29">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("04-12-2017") ) {
+                              echo ' <option value="2017-12-04">Lunes</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("05-12-2017") ) {
+                              echo '<option value="2017-12-05">Martes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("06-12-2017") ) {
+                              echo ' <option value="2017-12-06">Miercoles</option> ';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("11-12-2017") ) {
+                              echo '<option value="2017-12-11">Lunes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("12-12-2017") ) {
+                              echo '<option value="2017-12-12">Martes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("13-12-2017") ) {
+                              echo '<option value="2017-12-13">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("18-12-2017") ) {
+                              echo '<option value="2017-12-18">Lunes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("19-12-2017") ) {
+                              echo '<option value="2017-12-19">Martes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("20-12-2017") ) {
+                              echo '<option value="2017-12-20">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("21-12-2017") ) {
+                              echo '<option value="2017-12-21">Jueves</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("22-12-2017") ) {
+                              echo '<option value="2017-12-22">Viernes</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("23-12-2017") ) {
+                              echo '<option value="2017-12-23">Sabado</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("27-12-2017") ) {
+                              echo '<option value="2017-12-27">Miercoles</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("28-12-2017") ) {
+                              echo '<option value="2017-12-28">Jueves</option>';
+                            } ?>
+                            <?php if (strtotime(date("d-m-Y")) < strtotime("29-12-2017") ) {
+                              echo '<option value="2017-12-29">Viernes</option>';
+                            } ?>
+
+
+
+
+
                           </datalist>
 
                         <span class="input-group-btn"><button type="submit" class="btn btn-primary btn-form display-4">Enviar</button></span>
