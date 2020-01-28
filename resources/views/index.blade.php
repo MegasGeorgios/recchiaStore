@@ -52,7 +52,7 @@
                 @if (session('logueado'))
                     <li class="nav-item"><a class="nav-link link text-info display-4" href="{{ route('cita.index') }}">Citas<br></a></li>
                 @else
-                  <li class="nav-item"><a class="nav-link link text-info display-4" href="{{ url('/login') }}">Login<br></a></li>
+                  <li class="nav-item" style="display: none;"><a class="nav-link link text-info display-4" href="{{ url('/login') }}">Login<br></a></li>
                 @endif
                 <li class="nav-item"><a class="nav-link link text-info display-4" href="{{ url('/contactanos') }}">Contactanos<br></a></li>
 
